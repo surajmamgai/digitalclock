@@ -92,3 +92,54 @@ footer{
 	box-shadow: 0 -1px 4px rgba(0,0,0,0.4);
 	z-index:1;
 }
+@media only screen and (max-device-width:500px)
+{
+    .heading{
+        font-size: 8em;
+        margin-top: 60px;
+    }
+    #clock{
+        width:740px;
+        padding:80px;
+        margin:200px auto 120px;
+        margin-top:400px;
+    }
+    
+    #clock .display{
+        padding: 80px 40px 40px;
+        border-radius:12px;
+        height: 108px;
+    }
+    .time {
+        font-size: 6em;
+    }
+    
+    #time{
+        font-size: 0.6em;
+    }
+    #clock .weekdays{
+        font-size:24px;
+        width:100%;
+        top:20px;
+    }
+    
+    #clock .weekdays span{
+        padding:0 20px;
+    }
+    
+footer{
+
+	width: 800px;
+	font-size: 32px ;
+	padding: 30px 70px;
+    margin-left: -460px;
+    margin-bottom: 40px;
+    text-align: center;
+	background-color:#1f1f1f;
+	border-radius:4px 4px 0 0;
+
+	box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
+	z-index:1;
+}
+    
+}
